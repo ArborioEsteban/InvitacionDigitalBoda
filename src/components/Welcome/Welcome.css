@@ -6,8 +6,8 @@ body{
       rgba(79, 252, 232, 0.367),
       rgba(165, 248, 223, 0.472)
     ), */
-    url("../../../public/fondoF.png");
-  background-position:initial ;
+    url("../../../public/floralVertical.png");
+  background-position: center ;
   background-size: cover;
   background-attachment: fixed;
 
@@ -24,9 +24,16 @@ body{
 }
 
 .title{
-    font-size: 3rem !important;
+    font-size: 3.3rem !important;
+    color: #865e0f !important;
     
 }
+.Subtitles{
+  font-size: 2rem !important;
+  color: #865e0f !important;
+  
+}
+
 .imagenContenedor{
   position: relative;
   width: 100%;
