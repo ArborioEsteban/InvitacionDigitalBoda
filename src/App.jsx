@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import Counter from "./components/Counter/Counter";
 import Welcome from "./components/Welcome/Welcome";
+import Confirmation from "./components/Confirmation/Confirmation";
 
 function App() {
   return (
@@ -11,10 +12,11 @@ function App() {
       <Container>
         <div className="vh-100">
           <Welcome />
+          <Counter />
+          <Confirmation/>
         </div>
       </Container>
       <div>
-        <Counter />
       </div>
     </>
   );
