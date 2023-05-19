@@ -1,6 +1,7 @@
 import "./App.css";
 
 
+
 import Welcome from "./components/Welcome/Welcome";
 import GiftSection from "./components/GiftSection/GiftSection";
 import { useEffect } from "react";
