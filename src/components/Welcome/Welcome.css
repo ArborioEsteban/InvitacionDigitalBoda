@@ -6,18 +6,13 @@ body{
       rgba(79, 252, 232, 0.367),
       rgba(165, 248, 223, 0.472)
     ), */
-    url("../../../public/floralVertical.png");
+    url("../../../public/floralVertical2.png");
   background-position: center ;
   background-size: cover;
   background-attachment: fixed;
-
   font-family: "Cookie", cursive !important;
-  
   text-align: center !important;
   display: flex;
-  /* height: 100vh; */
-  /* max-width: 100vh; */
-  /* margin: auto; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -26,13 +21,35 @@ body{
 .title{
     font-size: 3.3rem !important;
     color: #865e0f !important;
-    
 }
 .Subtitles{
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
   color: #865e0f !important;
   
 }
+
+/* div contenedor para el texto arqueado */
+.arco{
+  position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+#textFecha{
+  font-size: 1.5rem !important;
+  color: #865e0f !important;
+  
+  text-align: center;  
+}
+
+
+#rings{
+  position: relative;
+  /* top: 1%; */
+  height: 20%;
+  width: 60%;
+}
+
 
 .imagenContenedor{
   position: relative;

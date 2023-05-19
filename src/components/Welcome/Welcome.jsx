@@ -1,24 +1,44 @@
-import { Container } from 'react-bootstrap'
-import './Welcome.css'
+import Confirmation from "../Confirmation/Confirmation";
+import MusicPlayer from "../MusicPlayer/MusicPlayer";
+
+import "./Welcome.css";
+
 
 const Welcome = () => {
   return (
     <>
-    <div className='imagenContendeor'>
-        {/* <img src="../../../public/letras.png" alt="EmanuelYNancy" className='text-center imagenNombres'/> */}
-        <h6 className='Subtitles pt-5 mt-5'>Guarda la Fecha</h6>
-        <p id="textCounter">Viernes 30/06/2023</p>
-        <p className='title mt-5'>Emmanuel Y Nancy</p>
-        {/* <p className='title'>Y</p>
-        <p className='title'>Nancy</p> */}
-        
-        {/* <h3 className='fs-1 Subtitles'>30/6/23 - 22hs</h3>
-        <h4 className='fs-1 Subtitles'>Salon Danubio <br></br> Ruta 315
-Km 9<br></br>
-Tafi viejo</h4> */}
-    </div>
-    </>
-  )
-}
+      <div className="vh-100">
+        <MusicPlayer/>
+        <h5 className="Subtitles pt-2 mt-4">Guarda la Fecha</h5>
 
-export default Welcome
+        <p id="textFecha">
+          Viernes <br></br>30/06/23 <br></br> 22hs
+        </p>
+
+        <p className="Subtitles">Te invitamos a Celebrar nuestra Boda</p>
+
+        <div>
+          <p className="title m-0">Emmanuel</p>
+          <img src="../../../public/rings.png" id="rings"></img>
+          <p className="title m-0">Nancy</p>
+          
+
+        </div>
+
+
+        <div className="mt-5">
+          <Confirmation></Confirmation>
+        </div>
+
+        {/* <div className="mt-1 my-2">
+          <Counter />
+          
+        </div> */}
+
+        
+      </div>
+    </>
+  );
+};
+
+export default Welcome;

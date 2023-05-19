@@ -2,5 +2,13 @@
     text-align: center;
     font-size: 2rem !important;
     color: #aa9364 !important;
-    
+    text-decoration: none;
+   
+  }
+
+  #textSalon{
+    text-align: center;
+    font-size: 1.6rem !important;
+    color: #aa9364 !important;
+
   }
