@@ -17,7 +17,7 @@ const Welcome = () => {
         <MusicPlayer/>
         {/* <h5 className="Subtitles pt-2 mt-4">Guardá la Fecha</h5> */}
 
-        <p className="Subtitles m-0">Te invitamos a Celebrar nuestra Boda</p>
+        <p className="Subtitles m-0"><b>Te invitamos a<br></br> Celebrar nuestra Boda</b></p>
         <div id="centerImage">
           <p className="title m-0">Emmanuel</p>
           <img src="https://imageup.me/images/26ade914-ab8f-4efb-aebc-1e2c8fe5e365.png" id="rings"></img>

@@ -31,7 +31,7 @@ const GiftSection = () => {
         <hr className="lineaHr"></hr>
         <p id="textConfirmation" className="mt-2">
           <b>
-            CIVIL <br></br>
+            Civil <br></br>
             28/06/23 - 11hs <br></br>Registro civil <br></br>Sargento Cabral 261{" "}
             <br></br> Villa lujan
           </b>
