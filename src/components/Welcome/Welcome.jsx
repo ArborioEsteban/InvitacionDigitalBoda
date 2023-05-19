@@ -14,7 +14,7 @@ const Welcome = () => {
   return (
     <>
       <div className="vh-100">
-        <MusicPlayer/>
+        {/* <MusicPlayer/> */}
         {/* <h5 className="Subtitles pt-2 mt-4">Guardá la Fecha</h5> */}
 
         <p className="Subtitles m-0"><b>Te invitamos a<br></br> Celebrar nuestra Boda</b></p>
