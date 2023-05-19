@@ -1,14 +1,32 @@
 #textConfirmation{
     text-align: center;
-    font-size: 2rem !important;
-    color: #aa9364 !important;
+    font-size: 1.9rem !important;
+    color: #1b1508 !important;
     text-decoration: none;
+    
    
   }
 
   #textSalon{
     text-align: center;
     font-size: 1.6rem !important;
-    color: #aa9364 !important;
+    color: #1b1508 !important;
+    font-weight: bold;
 
   }
+
+  #map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b1508 ;
+    
+    border-color: #1b1508;
+    border-width: 2px;
+    /* border:2px solid #647daa; */
+  }
+
+.lineaHr{
+  color: #aa9364;
+  border: 1px solid #aa9364;
+}

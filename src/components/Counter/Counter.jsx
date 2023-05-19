@@ -43,6 +43,7 @@ const Counter = () => {
                 <p id="textCounter">
                     {timeLeft.days} Dias, {timeLeft.hours} Horas, {timeLeft.minutes} Minutos, {timeLeft.seconds} segundos
                 </p>
+                <hr className="lineaHr"></hr>
 
             </div>
         </div>

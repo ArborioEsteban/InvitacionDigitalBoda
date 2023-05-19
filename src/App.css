@@ -4,3 +4,21 @@
   font-family: "Cookie", cursive !important;
   
 }
+
+body{
+  background: 
+  /* linear-gradient(
+      rgba(79, 252, 232, 0.367),
+      rgba(165, 248, 223, 0.472)
+    ), */
+    url("../../../public/floralVertical3.png");
+  background-position: center ;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Cookie", cursive !important;
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
-body{
+/* body{
   background: 
-  /* linear-gradient(
-      rgba(79, 252, 232, 0.367),
-      rgba(165, 248, 223, 0.472)
-    ), */
     url("../../../public/floralVertical2.png");
   background-position: center ;
   background-size: cover;
@@ -16,15 +12,15 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .title{
     font-size: 3.3rem !important;
-    color: #865e0f !important;
+    color: #1b1508 !important;
 }
 .Subtitles{
   font-size: 1.7rem !important;
-  color: #865e0f !important;
+  color: #1b1508 !important;
   
 }
 
@@ -37,7 +33,7 @@ body{
 
 #textFecha{
   font-size: 1.5rem !important;
-  color: #865e0f !important;
+  color: #1b1508 !important;
   
   text-align: center;  
 }
@@ -66,4 +62,13 @@ body{
   max-height: 100%;
   display: block;
   margin: auto;
+}
+
+#centerImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
 }
