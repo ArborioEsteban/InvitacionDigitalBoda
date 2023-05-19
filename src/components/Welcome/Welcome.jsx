@@ -19,7 +19,7 @@ const Welcome = () => {
 
         <div>
           <p className="title m-0">Emmanuel</p>
-          <img src="../../../public/rings.png" id="rings"></img>
+          <img src="https://imageup.me/images/26ade914-ab8f-4efb-aebc-1e2c8fe5e365.png" id="rings"></img>
           <p className="title m-0">Nancy</p>
           
 
